@@ -1,6 +1,32 @@
 def hidden(matrix, n):
     # Your implementation here!
-    pass
+    # ur doing great 
+    # skipping some letters: 
+    # e, z, b, v, w, q, etc
+    # initialize list
+    # frequency counter
+    # loop over the rows 
+    # loop letters
+    # skip over ns
+    # add letter
+    # return dict 
+
+    # hidden_letter = []
+    # frequency = 0
+    # for row in matrix():
+
+
+    letters = []
+    i = 0 
+
+    for row in matrix:
+        for letter in row:
+            if i % n == 0:
+                letters.append(letter)
+            i += 1
+    return ''.join(letters)
+
+        
 
 matrix_1 = (
     ('u','e','r','e', ' ', 'e'),
